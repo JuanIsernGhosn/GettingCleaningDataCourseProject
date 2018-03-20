@@ -7,10 +7,22 @@ The purpose of this project is to demonstrate your ability to collect, work with
 run_analysis.R does the following:
 
 * Merges the training and the test sets to create one data set.
-* Extracts only the measurements on the mean and standard deviation for each measurement.+*
+* Extracts only the measurements on the mean and standard deviation for each measurement.
 * Uses descriptive activity names to name the activities in the data set
 * Appropriately labels the data set with descriptive variable names.
 * From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+
+### Files used
+
+For the purpose of this project, the files in the Inertial Signals folders were not used. The files that were used to load data are listed below:
+
+* test/subject_test.txt
+* test/X_test.txt
+* test/y_test.txt
+* train/subject_train.txt
+* train/X_train.txt
+* train/y_train.txt
 
 ## How to run:
 
